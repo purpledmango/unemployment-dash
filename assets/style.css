@@ -1,0 +1,36 @@
+body{
+	margin: 3rem;
+}
+
+
+/*cityColors = {
+    "Delhi": "#ffa600",
+    "Mumbai": "#ef5675",
+    "Hyderabad": "#7a5195",
+    "Bangalore": "#003f5c"
+}*/
+
+
+.card__style{
+
+	margin: 2rem;
+	padding: 3rem;
+	display: grid;
+	align-content: center;
+	border: 2px solid #ef5675;
+	border-radius: 24px;
+	background: #ffa600;
+}
+
+.card__style span{
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.card__style  h1{
+	text-align: center;
+}
+
+.icons{
+	padding: 0.5rem;
+}
