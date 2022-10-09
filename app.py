@@ -216,6 +216,8 @@ def changeUnEmpGraph(key):
 	return fig3
 
 
+server = flask.Flask(__name__)
+
 app.title = "UnEmployment EDA"
 if __name__ == "__main__":
-	app.run_server(debug = True)
+	app.run_server(debug = False, server = server)
